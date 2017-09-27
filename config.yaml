@@ -1,0 +1,2 @@
+BUCKET_OLD: 'gs://train/json_sample/*.json'
+BUCKET: 'gs://training-phase3/json_demo/*.json'
