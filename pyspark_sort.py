@@ -39,9 +39,9 @@ words = sorted(rdd.collect())
 
 print(words)
 
-# TODO transform words into words,len tuple
+# TODO transform words into words,len,record tuple
 data = [
-        (u'aaaaaaaaa', 50),
+        (u'aaaaaaaaa', 50, dict(amount='aaaaaaaaa', amount_value=1.0)),
         (u'bbbbbbbbb', 60),
     ]
 
